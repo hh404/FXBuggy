@@ -30,7 +30,7 @@ final class RateService: RateServiceType {
     }
 
     func loadCurrencies() -> AnyPublisher<[Currency], Error> {
-        loadJSON("currencies", as: [Currency].self)
+        loadJSON("currencie", as: [Currency].self)
     }
 
     func loadRates() -> AnyPublisher<RatesResponse, Error> {

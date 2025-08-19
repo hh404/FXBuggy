@@ -12,6 +12,6 @@ final class QuoteViewModelTests: XCTestCase {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { exp.fulfill() }
         wait(for: [exp], timeout: 1.0)
 
-        XCTAssertTrue(vm.resultText.contains("134.00"), "应为 134.00 SGD，但当前实现不对")
+        XCTAssertTrue(vm.resultText.contains("134.00"), "should be 134.00 SGD")
     }
 }
