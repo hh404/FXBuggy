@@ -29,9 +29,23 @@
 		3ADF1EA42E52CB7100264A08 /* FXBuggyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXBuggyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		3ADF1EBD2E52CD1C00264A08 /* Exceptions for "FXBuggy" folder in "Compile Sources" phase from "FXBuggy" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 3ADF1E862E52CB6F00264A08 /* Sources */;
+			membershipExceptions = (
+				Resources/currencies.json,
+				Resources/rates.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3ADF1E8C2E52CB6F00264A08 /* FXBuggy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3ADF1EBD2E52CD1C00264A08 /* Exceptions for "FXBuggy" folder in "Compile Sources" phase from "FXBuggy" target */,
+			);
 			path = FXBuggy;
 			sourceTree = "<group>";
 		};

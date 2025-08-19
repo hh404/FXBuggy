@@ -1,0 +1,7 @@
+    [
+      { "code": "USD", "name": "US Dollar" },
+      { "code": "EUR", "name": "Euro" },
+      { "code": "SGD", "name": "Singapore Dollar" },
+      { "code": "CNY", "name": "Chinese Yuan" },
+      { "code": "JPY", "name": "Japanese Yen" }
+    ]

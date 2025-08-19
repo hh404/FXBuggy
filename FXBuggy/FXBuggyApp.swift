@@ -11,7 +11,9 @@ import SwiftUI
 struct FXBuggyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CurrencyListView(
+                viewModel: CurrencyListViewModel(service: RateService())
+            )
         }
     }
 }
